@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="flex items-center justify-end gap-3 min-w-[275px] max-w-[320px] w-full">
-                <button class="flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100">
+                <button @click="dosmt" class="flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100">
                     <Icon name="uil:bell" style="color: black" />
                 </button>
             </div>
@@ -26,6 +26,10 @@
 
 <script setup>
 const route = useRoute()
+
+function dosmt() {
+ alert("Welcome to the notification page")
+}
 </script>
 
 <style scoped>
