@@ -16,7 +16,8 @@
             </div>
             <div class="flex items-center justify-end gap-3 min-w-[275px] max-w-[320px] w-full">
                 <button @click="dosmt" class="flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100">
-                    <Icon name="uil:bell" style="color: black" />
+                    <Icon name="uil:plus" style="color: black" />
+                    <span class="px-2 font-medium text-[15px]">Upload</span>
                 </button>
             </div>
         </div>
@@ -27,9 +28,7 @@
 <script setup>
 const route = useRoute()
 
-function dosmt() {
- alert("Welcome to the notification page")
-}
+
 </script>
 
 <style scoped>
