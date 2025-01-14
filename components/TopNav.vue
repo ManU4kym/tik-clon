@@ -10,6 +10,14 @@
             </div>
             <div class="hidden md:flex items-center bg-[#F1F1F2] p-1 rounded-full max-w-[380px] w-full">
                 <input type="text" class="w-full pl-3 my-2 bg-transparent placeholder-[#838383] text-[15px] focus:outline-none" placeholder="Search accounts">
+                <div class="px-3 py-1 flex items-center border-l border-l-gray-300">
+                    <Icon name="uil:search" style="color: black" />
+                </div>
+            </div>
+            <div class="flex items-center justify-end gap-3 min-w-[275px] max-w-[320px] w-full">
+                <button class="flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100">
+                    <Icon name="uil:bell" style="color: black" />
+                </button>
             </div>
         </div>
 
