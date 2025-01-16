@@ -8,6 +8,7 @@
 </template>
 
 <script setup>
+import SideNavMain from '~/components/SideNavMain.vue'
 
 const route  = useRoute()
 </script>
