@@ -1,8 +1,8 @@
 <template>
   <div class="flex w-full hover:bg-gray-100 p-2.5 rounded-md items-center">
-    <div class="flex items-center lg:mx-0 mx-auto">
+    <div class="flex items-center  lg:mx-0 mx-auto">
         <Icon :name="icon"  :class="colorString" :size="sizeString"/>
-        <span class="lg:block hidden pl-[9px] mt-0.5 font-semibold text-[17px]" :class="`text-[${colorString}]`">
+        <span class="lg:block hidden flex pl-[9px] mt-0.5 font-semibold text-[17px]" :class="`text-[${colorString}]`">
             {{ iconString }}
         </span>
         
