@@ -40,9 +40,9 @@
                         class="absolute right-2 bottom-14" width="90">
                 </div>
                 <div class="relative mr-[75px]">
-                    <div class="absolute bottom-0 pl-2">
+                    <div class="absolute ml-[265px] bottom-0 pl-2">
                         <div class="pb-4 text-center">
-                            <button class="rounded-full bg-gray-200 p-2 cursor-pointer">
+                            <button class="flex rounded-full bg-gray-200 p-2 cursor-pointer">
                                 <Icon name="mdi:heart" size="25" />
                             </button>
                             <span class="text-xs text-gray-800 font-semibold">34</span>
