@@ -47,6 +47,18 @@
                             </button>
                             <span class="text-xs text-gray-800 font-semibold">34</span>
                         </div>
+                        <div class="pb-4 text-center">
+                            <button class="flex rounded-full bg-gray-200 p-2 cursor-pointer">
+                                <Icon name="bx:bxs-message-rounded" size="25" />
+                            </button>
+                            <span class="text-xs text-gray-800 font-semibold">34</span>
+                        </div>
+                        <div class="pb-4 text-center">
+                            <button class="flex rounded-full bg-gray-200 p-2 cursor-pointer">
+                                <Icon name="ri:share-forward-fill" size="25" />
+                            </button>
+
+                        </div>
                     </div>
                 </div>
             </div>
