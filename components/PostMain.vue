@@ -26,12 +26,25 @@
             <div class="text-[14px] text-gray-500 pb-0.5">
                 #fun #cool #SuperAwesome
             </div>
+            <div class="text-[14px] pb-0.5 flex items-center font-semibold">
+                <Icon name="mdi:music" size="20" />
+                <div class="px-1">original sound - AWESOME</div>
+                <Icon name="mdi:heart" size="20" />
+            </div>
+            <div class="mt-2 5">
+                <div
+                    class="max-w-[260px] flex items-center bg-black rounded-xl cursor-pointer max-h-[580px] min-h-[480px] relative">
+                    <video src="https://cdn.pixabay.com/video/2025/01/03/250395_tiny.mp4" ref="video" loop muted />
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
+let video = ref(null)
+onMounted(() => {
+    video.value.play()
+})
 </script>
