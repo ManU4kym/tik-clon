@@ -31,4 +31,21 @@
 
 <script setup>
 import UploadLayout from '~/layouts/UploadLayout'
+
+
+useHead({
+    title: 'Upload video',
+    meta: [
+        {
+            name: 'description',
+            content: 'Upload video to your account'
+        }
+    ],
+    link: [
+        {
+            rel: 'icon',
+            href: 'https://cdn-icons-png.flaticon.com/128/4301/4301577.png', // Update with the correct path to your favicon
+        },
+    ],
+})
 </script>
