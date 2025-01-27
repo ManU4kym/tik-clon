@@ -39,9 +39,24 @@
                             <Icon name="clarity:success-standard-line" size="16" class="min-w-[16px]" />
                             <div class="pl-1 truncate text-ellipsis text-[11px]">Video name</div>
                         </div>
+                        <button class="ml-2 font-semibold text-[11px]">
+                            Change
+                        </button>
                     </div>
                 </div>
-
+                <div class="mt-4 mb-">
+                    <div class="flex py-4 px-6 bg-[#F8F8F8]">
+                        <div>
+                            <Icon class="mr-4" size="20" name="mdi:box-cutter-off" />
+                        </div>
+                        <div>
+                            <div class="text-semibold mb-1 text-[15px]">Divide videos and edit</div>
+                            <div class="text-semibold text-gray-400 text-[13px]">
+                                You can quickly divide videos into multiple parts, remove redundant parts and
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </UploadLayout>
