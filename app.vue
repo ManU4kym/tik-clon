@@ -1,5 +1,6 @@
 <script setup>
 import { Analytics } from '@vercel/analytics/nuxt';
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 
 </script>
@@ -9,6 +10,7 @@ import { Analytics } from '@vercel/analytics/nuxt';
     <NuxtLayout>
       <NuxtPage />
       <Analytics />
+      <SpeedInsights />
     </NuxtLayout>
   </div>
 </template>
