@@ -1,75 +1,75 @@
-# Nuxt Minimal Starter
+# 🎥 TikTik Clone – Vue/Nuxt + Laravel
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A full-stack TikTok clone built with **Vue.js**, **Nuxt.js**, and **Laravel**. Features video uploads, user auth, likes, comments, and a responsive UI.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Tech Stack
+
+- **Frontend**: Nuxt 3, Vue 3, Tailwind CSS
+- **Backend**: Laravel 10, Sanctum
+- **Database**: MySQL / PostgreSQL
+- **Storage**: Local / Cloudinary
+- **Auth**: Token-based (Sanctum)
+
+---
+
+## ⚙️ Setup
+
+### Backend (Laravel)
 
 ```bash
-# npm
-npm install
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Frontend (Nuxt)
 
 ```bash
-# npm
+cd frontend
+npm install
+echo "NUXT_API_BASE_URL=http://localhost:8000/api" > .env
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+----------
 
-Build the application for production:
+## 📦 Features
 
-```bash
-# npm
-npm run build
+-   Infinite scrolling video feed
+    
+-   Video upload with preview
+    
+-   Likes, comments, and user profiles
+    
+-   Auth (register, login, logout)
+    
+-   RESTful API
+    
 
-# pnpm
-pnpm build
+----------
 
-# yarn
-yarn build
+## 🧪 Testing
 
-# bun
-bun run build
-```
+-   `php artisan test` (Laravel)
+    
+-   `npm run test` (Nuxt)
+    
 
-Locally preview production build:
+----------
 
-```bash
-# npm
-npm run preview
+## 📄 License
 
-# pnpm
-pnpm preview
+MIT
 
-# yarn
-yarn preview
+----------
 
-# bun
-bun run preview
-```
+## 👤 Author
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[versatile kim](https://github.com/ManU4kym)
