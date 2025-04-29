@@ -1,4 +1,4 @@
-# 🎥 TikTik Clone – Vue/Nuxt + Laravel
+# 🎥 Tikotiko Clone – Vue/Nuxt + Laravel
 
 A full-stack TikTok clone built with **Vue.js**, **Nuxt.js**, and **Laravel**. Features video uploads, user auth, likes, comments, and a responsive UI.
 
@@ -38,37 +38,30 @@ npm run dev
 
 ```
 
-----------
+---
 
 ## 📦 Features
 
--   Infinite scrolling video feed
-    
--   Video upload with preview
-    
--   Likes, comments, and user profiles
-    
--   Auth (register, login, logout)
-    
--   RESTful API
-    
+- Infinite scrolling video feed
+- Video upload with preview
+- Likes, comments, and user profiles
+- Auth (register, login, logout)
+- RESTful API
 
-----------
+---
 
 ## 🧪 Testing
 
--   `php artisan test` (Laravel)
-    
--   `npm run test` (Nuxt)
-    
+- `php artisan test` (Laravel)
+- `npm run test` (Nuxt)
 
-----------
+---
 
 ## 📄 License
 
 MIT
 
-----------
+---
 
 ## 👤 Author
 
